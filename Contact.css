@@ -1,0 +1,164 @@
+body{
+font-family: 'Times New Roman', Times, serif;
+margin: 0;
+padding: 0;
+background-image: url("Travel background.jpg");
+}
+
+ul{
+    text-align: center;
+    list-style: circle;
+    margin: 20px;
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul li a:hover{
+    color:black;
+}
+
+form{
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(56, 107, 128, 0.74);
+    border-radius: 15px;
+    border: 3px solid black;
+    box-shadow: 0px 4px 10px grey;
+}
+
+form label{
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input[type="text"], form select, form textarea{
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid #454242;
+    font-size: 16px;
+}
+
+
+.gender {
+    margin: 15px 0;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 20px;  
+}
+
+.gender label {
+    font-weight: bold;  
+}
+
+.gender input[type="radio"] {
+    margin-right: 5px;
+    accent-color: blue; 
+}
+
+
+form textarea{
+    resize: none;
+}
+
+form button{
+    background: #74b7e7;
+    color: #f1bdbd;
+    padding: 10px 20px;
+    border:#0c0d0d;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+form button:hover{
+    background: #dd8143;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: beige;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover{
+    color: black;
+}
+
+.social-links i{
+    margin-right: 8px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.btn{
+    background-color: #6cbbf4;
+    color: white;
+    border:none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover{
+    background-color:#4aa3d8;
+    transform: scale(1.05);
+}
+
+.reset{
+    background-color: #f38a7f;
+}
+
+.reset:hover{
+    background-color: #f57c73;
+}

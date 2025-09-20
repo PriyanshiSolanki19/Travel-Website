@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact </title>
+    <link rel ="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="Stylesheet" href="Contact.css">
+    <a href="About.html">About</a>
+    <a href="index.html">Contact</a>
+    </head>
+    <body>
+        <ul type="circle">
+            <li><a href="About.html" ></a></li>
+            <li><a href="Travel.html"></a></li>
+        </ul>
+    <form action="submit form.php" method="post"> 
+            <!--Text input-->
+            <label for="Full name">Name: </label>
+            <input type="text" id="Full name" required/>
+            <br> </br>
+            <!--Email-->
+            <label for="Email">Email: </label>
+            <input type="text" id="Email" required/>
+            <br> </br>
+
+            <div class="gender">
+            <label>Select your Gender </label>
+            <label>Male 
+                <input type="radio"
+                name="Gender"
+                value="Male" />
+            </label>
+            <label>Female 
+                <input type="radio"
+                name="Gender"
+                value="Female"/>
+            </label>
+            </div>
+
+            <label for="Country">Select Country:</label>
+            <select>
+            <option value="Thailand">Thailand</option>
+            <option value="Maldives">Maldives</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Bali">Bali</option>
+            <option value="Europe">Europe</option>
+            </select>
+            <br> </br>
+            <!--Text Area-->
+            <label for="message">Your message:</label>
+            <textarea name="message" id="message" rows="4"  cols="30"></textarea>
+
+            <input type="submit"value="Submit"class="btn"/>
+            <input type="reset"value="Reset"class="btn reset"/>
+            <br/> <br/>
+        </form>
+        <h1>Our contact details </h1>
+        <div class="contact-info">
+        <b> Email</b>: Traveltalesworld@gmail.com </br>
+        <b>Contact Number</b>: +91 98765 43210 </br>
+        </div>
+        <h2>Social Media Links</h2>
+        <div class="social-links " >
+        <h3> <a href="ttp://linkedin.com/in/priyanshi10"><i class="fab fa-linkedin"></i>linkedin</a> </h3> </br>
+        <h3> <a href ="instagram.com/waves and wonders"><i class="fab fa-instagram"></i>Instagram</a></h3> </br>
+        </div>
+    </body>
+</html>
